@@ -1,7 +1,7 @@
 char1 = input()
 char2 = input()
 ls = []
-
+# test
 
 def ifchange() -> bool:
     """
