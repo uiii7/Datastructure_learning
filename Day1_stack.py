@@ -13,6 +13,9 @@ class Stack:
     def peek(self):
         return self.items[-1]
 
+    def reverse(self):
+        return self.items.reverse()
+
     def isEmpty(self):
         return self.items == []
 
