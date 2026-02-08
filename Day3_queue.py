@@ -19,11 +19,3 @@ class Queue:
     def printQueue(self):
         print(self.queue)
 
-
-q = Queue()
-for i in range(10):
-    q.enqueue(i)
-
-q.printQueue()
-q.dequeue()
-q.printQueue()
