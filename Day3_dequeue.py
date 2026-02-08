@@ -27,6 +27,13 @@ class Deque:
     def printDeque(self):
         print(self.item)
 
+    def iterable(self):
+        iter = []
+        for i in range(len(self.item)):
+            iter.append(self.item[i])
+        return iter
+
+
 if __name__ == '__main__':
     d = Deque()
     for i in range(10):
