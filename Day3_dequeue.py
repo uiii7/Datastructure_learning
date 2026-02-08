@@ -34,11 +34,3 @@ class Deque:
         return iter
 
 
-if __name__ == '__main__':
-    d = Deque()
-    for i in range(10):
-        d.addFront(i)
-    for j in range(10):
-        d.addRear(j)
-
-    d.printDeque()
